@@ -22,7 +22,6 @@ function backSpace() {
 //funçao para mostrar o resultado
 function result() {
     var resultado = document.getElementById('print-screen').innerHTML
-
     if (resultado) {
         document.getElementById('print-screen').innerHTML = eval(resultado)
     } else {
